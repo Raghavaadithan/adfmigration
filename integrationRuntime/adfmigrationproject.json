@@ -1,0 +1,6 @@
+{
+	"name": "adfmigrationproject",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

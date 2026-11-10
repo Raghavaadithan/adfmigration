@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevmigrationproject001"
+		},
+		"LS_SQLSERVER_TBLLKUP_password": {
+			"value": ""
+		},
+		"LS_SQL_SP_password": {
+			"value": ""
+		},
+		"lS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"lS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_userName": {
+			"value": "azuresql"
+		},
+		"LS_SQL_SP_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_SQL_SP_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SQL_SP_properties_typeProperties_userName": {
+			"value": "azuresql"
+		},
+		"lS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"lS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"lS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "azuresql"
+		},
+		"lS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevmigprojectstorage.dfs.core.windows.net/"
+		}
+	}
+}
